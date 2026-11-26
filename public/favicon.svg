@@ -1,18 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0A237A" />
-      <stop offset="100%" stop-color="#1345C2" />
-    </linearGradient>
-  </defs>
-  <rect width="32" height="32" rx="7" fill="url(#bg)" />
-  <!-- Bold signal arcs (top right) -->
-  <path d="M20.5 7.5a5 5 0 0 1 4.5 4.5" stroke="#29C7FF" stroke-width="2.4" stroke-linecap="round" />
-  <path d="M20.5 3.8a8.8 8.8 0 0 1 8.2 8.2" stroke="#29C7FF" stroke-width="2.4" stroke-linecap="round" />
-  <!-- Bold F -->
-  <path fill="#FFFFFF" d="M3.5 11.5C3.5 10.4 4.4 9.5 5.5 9.5H13.5V13.2H7.5V15.8H12.5V19.3H7.5V25.5H3.5V11.5Z" />
-  <!-- Bold M -->
-  <path fill="#FFFFFF" d="M14.5 11.5C14.5 10.4 15.4 9.5 16.5 9.5H17.6L21.5 14.5L25.4 9.5H26.5C27.6 9.5 28.5 10.4 28.5 11.5V25.5H24.6V16.6L21.5 20.5L18.4 16.6V25.5H14.5V11.5Z" />
-  <!-- Orange Play accent -->
-  <path fill="#FF8400" d="M19.5 20.5L23.9 23L19.5 25.5V20.5Z" />
+  <!-- Bold cyan F (left, full height) -->
+  <path fill="#00B8FF" d="M1 7C1 5.34 2.34 4 4 4H13.5V9H6V13.5H12.5V18.2H6V28H1V7Z" />
+  <!-- Bold vibrant orange M (right, full height) -->
+  <path fill="#FF6B00" d="M14.5 7C14.5 5.34 15.84 4 17.5 4H19L22.75 11.2L26.5 4H28C29.66 4 31 5.34 31 7V28H26.2V14.2L22.75 20.2L19.3 14.2V28H14.5V7Z" />
+  <!-- Bold yellow-orange play accent in M notch -->
+  <path fill="#FFB800" d="M20.8 22L25.4 25L20.8 28V22Z" />
 </svg>
