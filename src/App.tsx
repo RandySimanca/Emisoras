@@ -20,7 +20,7 @@ import "./App.css";
 
 
 function App() {
-  const [dark, setDark] = useState(true);
+  const [dark, setDark] = useState(false);
   const [emisoras, setEmisoras] = useState<Emisora[]>([]);
   const navigate = useNavigate();
   const coincidencia = useMatch("/emisora/:uuid");
