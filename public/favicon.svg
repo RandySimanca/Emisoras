@@ -1,8 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <!-- Bold cyan F (left, full height) -->
-  <path fill="#00B8FF" d="M1 7C1 5.34 2.34 4 4 4H13.5V9H6V13.5H12.5V18.2H6V28H1V7Z" />
-  <!-- Bold vibrant orange M (right, full height) -->
-  <path fill="#FF6B00" d="M14.5 7C14.5 5.34 15.84 4 17.5 4H19L22.75 11.2L26.5 4H28C29.66 4 31 5.34 31 7V28H26.2V14.2L22.75 20.2L19.3 14.2V28H14.5V7Z" />
-  <!-- Bold yellow-orange play accent in M notch -->
-  <path fill="#FFB800" d="M20.8 22L25.4 25L20.8 28V22Z" />
+  <!-- Outer broadcast waves -->
+  <path d="M25.37 5.6A14 14 0 0 1 25.37 26.4" stroke="#00D4FF" stroke-width="3" stroke-linecap="round" />
+  <path d="M6.63 5.6A14 14 0 0 0 6.63 26.4" stroke="#00D4FF" stroke-width="3" stroke-linecap="round" />
+  <!-- Inner broadcast waves -->
+  <path d="M22.72 9.28A9.5 9.5 0 0 1 22.72 22.72" stroke="#00A3FF" stroke-width="3" stroke-linecap="round" />
+  <path d="M9.28 9.28A9.5 9.5 0 0 0 9.28 22.72" stroke="#00A3FF" stroke-width="3" stroke-linecap="round" />
+  <!-- Vibrant orange broadcast core -->
+  <circle cx="16" cy="16" r="4.8" fill="#FF7300" />
 </svg>
