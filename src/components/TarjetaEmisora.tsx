@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Heart, MapPin, Play, Radio } from "lucide-react";
 import type { Emisora } from "../services/radioApi";
 
@@ -14,17 +15,17 @@ export default function TarjetaEmisora({
   onSeleccionar,
   onFavorita,
 }: Props) {
+  const [imgError, setImgError] = useState(false);
+
   return (
     <article className="station-card">
       <button className="station-art real-station-art" onClick={onSeleccionar}>
-        {emisora.favicon ? (
+        {emisora.favicon && !imgError ? (
           <img
             src={emisora.favicon}
             alt=""
             loading="lazy"
-            onError={(e) => {
-              e.currentTarget.style.display = "none";
-            }}
+            onError={() => setImgError(true)}
           />
         ) : (
           <Radio size={43} strokeWidth={1.3} />
